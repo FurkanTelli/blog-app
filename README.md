@@ -5,7 +5,7 @@
 - npm start
 
 
-<u>Libraries Used</u>
+<b><u>Libraries Used</u></b>
 | ---------------- | --------- |
 | axios            | ^1.11.0   |
 | bootstrap        | ^5.3.7    |

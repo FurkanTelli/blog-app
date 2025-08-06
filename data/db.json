@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "4",
+      "username": "Grace",
+      "email": "gracefunsho@gmail.com",
+      "password": "249549216",
+      "blogs": [
+        {
+          "id": 6,
+          "title": "Balancing Career and Family",
+          "topics": [
+            "career",
+            "family",
+            "lifestyle"
+          ],
+          "content": "Tips and experiences on maintaining a healthy work-life balance."
+        }
+      ]
+    },
+    {
+      "id": "ff03",
+      "username": "admin2",
+      "email": "admin@gmail.com",
+      "password": "admin1356",
+      "blogs": [
+        {
+          "id": 1,
+          "title": "First Blog Title Has Been Edited",
+          "topics": [
+            "topic1",
+            "topic2"
+          ],
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!"
+        },
+        {
+          "id": 2,
+          "title": "Second Blog Title",
+          "topics": [
+            "newTopic1",
+            "newTopic2",
+            "newTopic3",
+            "newTopic4"
+          ],
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur "
+        }
+      ]
+    }
+  ]
+}

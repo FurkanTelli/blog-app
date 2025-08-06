@@ -1,0 +1,14 @@
+.allcards {
+    display: grid;
+    margin-top: 1rem;
+    gap: 1rem; 
+    /* padding: 1rem; */
+}
+
+.p-panel {
+    border: 1px solid whitesmoke;
+}
+
+.p-panel-header {
+    border-bottom:1px solid whitesmoke
+}

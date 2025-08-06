@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    font-family: "Intel One Mono", monospace;
+}
+
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.advance-card {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 25vw;
+    box-shadow: 1px 0px 9px gray;
+}
+
+.p-chip {
+    border-radius: 4px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input>label {
+    margin: 8px 0 10px 0;
+    color: rgb(173, 171, 171);
+    /* font-size: smaller; */
+}
+
+.label-input>input {
+    width: 70%;
+    margin: auto;
+    height: 2.5rem;
+}
+
+.p-card-title {
+    color: rgba(212, 215, 236, 0.92);
+}
+
+.chip {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: rgba(159, 168, 218, 0.92);
+}
+
+.chip:hover {
+    background-color: rgba(136, 146, 204, 0.92);
+    transition: 0.4s;
+}
+
+.chip:active {
+    background-color: rgba(145, 157, 224, 0.92);
+    color: antiquewhite;
+}
+
+
+@media (max-width: 1300px) and (min-width: 840px) {
+    .form {
+        width: 40vw;
+        font-size: small;
+    }
+
+    .p-card-title {
+        font-size: medium;
+    }
+
+    .p-card-footer>button {
+        font-size: small;
+    }
+}
+
+@media (max-width: 839px) {
+    .form {
+        width: 50vw;
+        font-size: x-small;
+    }
+
+    .p-card-title {
+        font-size: x-small;
+    }
+
+    .p-card-footer>button {
+        font-size: x-small;
+        padding: 7px;
+    }
+}

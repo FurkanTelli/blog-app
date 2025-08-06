@@ -1,0 +1,52 @@
+.create-input-form {
+    padding: 1rem;
+}
+
+.id-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.topic-div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    gap:7px
+}
+
+.content-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.topics-div {
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+    /* grid-template-columns: repeat(3,1fr); */
+    border-radius: 1rem;
+    margin: 1rem 0 1rem 0;
+    padding: 7px;
+    border: 1px solid rgba(159, 168, 218, 0.92);
+}
+
+.p-chip {
+    background-color: #333f7c;
+}
+
+.p-chip:hover {
+    background-color: rgb(107, 21, 21);
+}
+
+.none {
+    display: none;
+}

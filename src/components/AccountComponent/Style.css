@@ -1,0 +1,26 @@
+.account-panel {
+    margin: auto;
+}
+
+.account-panel-header {
+    display: flex;
+    gap: 1rem;
+}
+
+.account-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border-span {
+    border: solid white 0.5px;
+    width: 50%;
+}
+
+.edit-user-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1rem 0;
+}

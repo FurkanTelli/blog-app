@@ -1,0 +1,18 @@
+.AppNotLogged {
+  text-align: center;
+  height: 100vh;  
+}
+
+.AppLogged {
+  /* text-align: center; */
+  height: 100vh;
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+  padding: 1rem;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+  overflow-y: auto;
+}

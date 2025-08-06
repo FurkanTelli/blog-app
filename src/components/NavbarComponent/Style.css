@@ -1,0 +1,22 @@
+/* * {
+    margin: 0;
+} */
+
+.sideBar {
+    height: 100vh;
+    width: 20vw;
+    background-color: #1f264b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    /* #2b3467 */  
+}
+
+.sideBar-header {
+    padding: 0 0 1rem 0;
+}
+
+.sideBar-footer {
+    margin: 0 0 1rem 0;
+}
